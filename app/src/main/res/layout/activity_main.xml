@@ -67,19 +67,6 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/zrzut_ekranu_2023_09_22_o_11_26_08" />
 
-    <SeekBar
-        android:id="@+id/pasek"
-        style="@style/Widget.AppCompat.SeekBar.Discrete"
-        android:layout_width="355dp"
-        android:layout_height="28dp"
-        android:max="10"
-        android:progress="3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iV4"
-        app:layout_constraintVertical_bias="0.266" />
-
     <TextView
         android:id="@+id/waga_textView"
         android:layout_width="wrap_content"
@@ -92,5 +79,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iV4"
         app:layout_constraintVertical_bias="0.642" />
+
+    <Button
+        android:id="@+id/btn_waga"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:text="Zatwierdź"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iV3"
+        app:layout_constraintVertical_bias="0.459" />
+
+    <SeekBar
+        android:id="@+id/pasek"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="266dp"
+        android:layout_height="35dp"
+        android:max="10"
+        android:progress="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iV4"
+        app:layout_constraintVertical_bias="0.264" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
