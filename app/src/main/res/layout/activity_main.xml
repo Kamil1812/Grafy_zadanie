@@ -82,15 +82,15 @@
 
     <Button
         android:id="@+id/btn_waga"
-        android:layout_width="150dp"
-        android:layout_height="52dp"
+        android:layout_width="159dp"
+        android:layout_height="58dp"
         android:text="Zatwierdź"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iV3"
-        app:layout_constraintVertical_bias="0.459" />
+        app:layout_constraintVertical_bias="0.494" />
 
     <SeekBar
         android:id="@+id/pasek"
@@ -105,5 +105,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iV4"
         app:layout_constraintVertical_bias="0.264" />
+
+    <Button
+        android:id="@+id/btn_znajdz"
+        android:layout_width="242dp"
+        android:layout_height="56dp"
+        android:text="Wyszukaj ścieżkę"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_waga"
+        app:layout_constraintVertical_bias="0.172" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
