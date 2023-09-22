@@ -4,4 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iV2"
+        android:layout_width="61dp"
+        android:layout_height="67dp"
+        app:layout_constraintBottom_toTopOf="@+id/iV3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toEndOf="@+id/iV5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575"
+        app:srcCompat="@drawable/zrzut_ekranu_2023_09_22_o_11_24_43" />
+
+    <ImageView
+        android:id="@+id/iV5"
+        android:layout_width="48dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/iV4"
+        app:layout_constraintEnd_toStartOf="@+id/iV1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/zrzut_ekranu_2023_09_22_o_11_26_44" />
+
+    <ImageView
+        android:id="@+id/iV3"
+        android:layout_width="51dp"
+        android:layout_height="61dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toEndOf="@+id/iV4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149"
+        app:srcCompat="@drawable/zrzut_ekranu_2023_09_22_o_11_25_21" />
+
+    <ImageView
+        android:id="@+id/iV1"
+        android:layout_width="60dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/iV5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447"
+        app:srcCompat="@drawable/zrzut_ekranu_2023_09_22_o_11_23_25" />
+
+    <ImageView
+        android:id="@+id/iV4"
+        android:layout_width="60dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iV3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/zrzut_ekranu_2023_09_22_o_11_26_08" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
